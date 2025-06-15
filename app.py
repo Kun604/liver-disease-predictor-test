@@ -7,7 +7,7 @@ model = joblib.load('liver_disease_model.pkl')
 label_encoders = joblib.load('label_encoders.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title("🩺 Liver Disease Risk Prediction")
+st.title("🩺 Kun's Liver Disease Risk Prediction System :-)")
 
 st.markdown("Please enter your medical and lifestyle information below. The system will predict the likelihood of liver disease:")
 
